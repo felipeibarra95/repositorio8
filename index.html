@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+<body>
+    <div class="container-fluid" style="background-color: rgba(0, 255, 255, 0.583);"> contenedor fluid</div>
+    <div class="container-sm" style="background-color: rgb(123, 44, 250);">contenedor sm</div>
+    <div class="container-md" style="background-color: rgb(131, 30, 225);">contenedor md</div>
+    <div class="container-lg" style="background-color: rgb(100, 14, 181);">contenedor lg</div>
+    <div class="container-xl" style="background-color: rgb(64, 6, 118);">contenedor xl</div>
+    <div class="container-xxl" style="background-color: rgb(52, 4, 94);">contenedor xxl</div>
+    <div class="container ">
+        <div class="row">
+            <div class="p-2 col-sm-1 col-md-3  style="background-color: rgb(255, 41, 41);"> columna 1</div>
+            <div class="p-3 col-sm-2 col-md-3" style="background-color: rgb(225, 31, 31);"> columna 2</div>
+            <div class="p-4 col-sm-4 col-md-3" style="background-color: rgb(206, 22, 22);"> columna 3</div>
+            <div class="p-5 col-sm-5 col-md-3" style="background-color: rgb(179, 14, 14);"> columna 4
+             <div class="row align-items-center">
+                <div class="col-4" style="background-color: cyan;">nesting1</div>
+                <div class="col-4" style="background-color: rgb(2, 196, 196);">nesting2</div>
+                <div class="col-4 offset-md-4" style="background-color: rgb(3, 146, 146);">nesting3 offset</div>
+             </div> </div>
+        </div>
+        <div class="container px-2">
+            <div class="row gx-3">
+              <div class="col">
+               <div class="p-3" style="background-color: darkmagenta;">columna padding1</div>
+              </div>
+              <div class="col">
+                <div class="p-3" style="background-color: rgb(80, 0, 80);">columna padding2</div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container p-5">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido</th>
+                  <th scope="col">Edad</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Nombre1</td>
+                  <td>Apellido1</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Nombre2</td>
+                  <td>Apellido2</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Nombre3</td>
+                  <td>Apellido3</td>
+                  <td>24</td>
+                </tr>
+              </tbody>
+        </table>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
